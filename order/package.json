@@ -2,10 +2,10 @@
   "name": "api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.mjs",
+  "main": "src/index.mjs",
   "scripts": {
-    "start": "node index.mjs",
-    "dev": "nodemon index.mjs"
+    "start": "node src/index.mjs",
+    "dev": "nodemon src/index.mjs"
   },
   "keywords": [],
   "author": "",

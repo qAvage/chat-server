@@ -8,11 +8,3 @@ services:
     env_file: .env
     container_name: order
     restart: always
-
-  offer:
-    build:
-      dockerfile: ./Dockerfile
-      context: ./offer
-    env_file: .env
-    container_name: offer
-    restart: always

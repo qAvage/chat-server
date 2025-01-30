@@ -1,0 +1,18 @@
+version: "3"
+services:
+
+  order:
+    build:
+      dockerfile: ./Dockerfile
+      context: ./order
+    env_file: .env
+    container_name: order
+    restart: always
+
+  offer:
+    build:
+      dockerfile: ./Dockerfile
+      context: ./offer
+    env_file: .env
+    container_name: offer
+    restart: always
